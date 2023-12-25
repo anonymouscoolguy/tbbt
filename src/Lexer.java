@@ -47,7 +47,7 @@ public class Lexer {
                         tokens.add(new Token(TokenType.RIGHT_PARENTHESIS));
                         break;
                     default:
-                        System.out.println(new IllegalCharacterError("Character not recognized."));
+                        System.out.println(new IllegalCharacterError("Character '" + currentChar + "' is not recognized."));
                         System.exit(1);
                 }
                 advance();
