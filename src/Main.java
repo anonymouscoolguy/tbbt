@@ -1,3 +1,6 @@
+import lexer.Lexer;
+import lexer.Token;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 

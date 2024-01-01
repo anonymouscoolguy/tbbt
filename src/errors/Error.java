@@ -1,3 +1,5 @@
+package errors;
+
 public class Error {
 
     public Error(String name, String details) {

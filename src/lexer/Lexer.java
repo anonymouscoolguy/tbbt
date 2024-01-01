@@ -1,3 +1,7 @@
+package lexer;
+
+import errors.IllegalCharacterError;
+
 import java.util.ArrayList;
 
 public class Lexer {
